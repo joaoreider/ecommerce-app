@@ -9,7 +9,6 @@ export const metadata: Metadata = {
     template: '%s | Ecommerce app',
     default: 'Ecommerce app',
   },
-  
 }
 
 export default function RootLayout({

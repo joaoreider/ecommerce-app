@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import React, { FC } from 'react'
-import { Search, ShoppingBag } from 'lucide-react'
+import { Search } from 'lucide-react'
 import Image from 'next/image'
+import Cart from './Cart'
 
 interface HeaderProps {}
 
@@ -19,10 +20,7 @@ export const Header: FC<HeaderProps> = () => {
         </form>
       </div>
       <div className="flex items-center gap-4">
-        <div className="flex items-center gap-2">
-          <ShoppingBag className="w-4 h-4 text-sm" />
-          <span className="text-sm">Cart (0)</span>
-        </div>
+        <Cart />
         <div className="w-px h-4 bg-zinc-700" />
         <Link href="/" className="flex items-center gap-2 hover:underline ">
           <span className="text-sm">Account</span>
