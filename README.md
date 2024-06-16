@@ -13,3 +13,4 @@ Building...
     - Typescript
     - Tests with Cypress
     - Zod
+    - pnpm
