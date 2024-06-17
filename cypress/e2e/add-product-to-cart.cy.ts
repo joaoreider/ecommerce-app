@@ -25,7 +25,7 @@ describe('add product to cart', () => {
   })
 
   it('should search a product and add to cart', () => {
-    cy.get('input[name=q]').type('Hoodie').parent('form').submit()
+    cy.get('input[name=q]').type('moletom').parent('form').submit()
 
     cy.get('a[href^="/product"]').first().click()
 
