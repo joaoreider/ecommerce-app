@@ -1,3 +1,5 @@
+![ecommerce-app](https://github.com/joaoreider/ecommerce-app/assets/83885051/473768c1-1df2-4641-a2f8-3848bc419dfd)
+
 <h1 align="center">Ecommerce App</h1>
 
 <p align="center">An ecommerce project using Next.js, featuring a user-friendly interface and most standard ecommerce functionalities. </p>
